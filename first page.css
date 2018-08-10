@@ -1,9 +1,16 @@
-body{background-image: url("front 66.jpg");
+body{
 width:1500px;
 height:900px;
-background-color:none;
-background-attachment:fixed;}
 
+animation-name: colorchange;
+    animation-timing-function: ease-in;
+    animation-duration: 20s;
+
+    animation-iteration-count: infinite;
+    animation-direction: reverse;}
+.wish{
+    float: right;
+}
 .heading
 {   width: 1620px;
     height:75px;
@@ -13,9 +20,8 @@ background-attachment:fixed;}
     background:linear-gradient(orange,white,green);
 }
 img
-{ float:right;hi
-
-   margin: 10px}
+{ float:right;
+    margin: 10px}
 .menu
 {
     width:1600px;
@@ -27,7 +33,7 @@ img
     font-size:20px;
 }
 .main ul{
-    list-style-image:url("backcover.jpg");
+    list-style-image:url("../../../Desktop/backcover.jpg");
 
 }
 .menu ul li{
@@ -70,7 +76,17 @@ table.auto{
     width: 520px;
 
 }
+.footer{
+"background-color: goldenrod"
+box-shadow: inset hoff voff blur #000;
+}
 
 
 
-a:hover{color:RED }
+a:hover{color:darkred }
+@keyframes colorchange{
+    0%{background-color: firebrick;}
+    50%{background-color: yellow;}
+    100%{background-color: goldenrod;}
+
+}

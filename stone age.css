@@ -4,7 +4,14 @@ body{background-image: url("Wat-Si-Saket5.jpg") ;
     height:900px;
     background-color:none;
     background-attachment:fixed;
-    box-shadow: ;
+
+}
+.new{
+    width:1500px;
+    word-wrap:normal;
+    background-color: sandybrown;
+    box-shadow: inset 5px 5px 5px chocolate;
+    color: black;
 }
 
 .heading
